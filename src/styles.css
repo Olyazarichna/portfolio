@@ -234,3 +234,23 @@ body {
     margin-top: 40px;
   }
 }
+/* work */
+.work-title {
+  font-family: "Lobster";
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+.content {
+  margin: 30px;
+}
+.col-md-6 {
+  background-color: var(--main-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
