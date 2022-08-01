@@ -28,6 +28,7 @@ body {
   background-color: var(--main-color);
 }
 .header-name {
+  font-family: "Lobster";
   font-size: 36px;
 }
 .nav-link-text {
@@ -164,6 +165,7 @@ body {
 .contact .social-links {
   margin-right: 5px;
 }
+
 .social-links {
   width: 20px;
   height: 20px;
@@ -243,12 +245,20 @@ body {
   text-align: center;
   margin-top: 30px;
 }
+.work-subtitle {
+  font-family: "Lobster";
+  font-size: 15px;
+}
+.work-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
 .content {
   margin: 30px;
 }
 .col-md-6 {
   background-color: var(--main-color);
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
