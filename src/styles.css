@@ -27,12 +27,17 @@ body {
 .header {
   background-color: var(--main-color);
 }
+
 .header-name {
   font-family: "Lobster";
   font-size: 36px;
 }
 .nav-link-text {
   font-size: 30px;
+}
+.container-header {
+  display: flex;
+  align-items: baseline;
 }
 
 .hero {
@@ -111,7 +116,10 @@ body {
   background-color: var(--main-color);
   padding: 49px 119px;
 }
-
+.work-inquiry .container {
+  display: flex;
+  justify-content: space-between;
+}
 .work-inquiry-title {
   font-size: 48px;
   line-height: 1.33;
@@ -147,7 +155,7 @@ body {
   margin-top: 16px;
 }
 .team-item-list {
-  background-color: var(--accent-color);
+  background-color: rgba(108, 99, 255, 0.05);
   border-radius: 50%;
 }
 .team-item-list + .team-item-list {
@@ -169,7 +177,7 @@ body {
 .social-links {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: var(--accent-color);
   transition: fill var(--transition);
 }
 .team-social:hover,
@@ -199,6 +207,10 @@ body {
   }
   .work-inquiry-title {
     font-size: 25px;
+  }
+  .work-inquiry-text {
+    width: 200px;
+    margin: 0;
   }
   .work-btn {
     font-size: 10px;
@@ -263,4 +275,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.svg-git {
+  width: 15px;
 }
